@@ -1,0 +1,62 @@
+.matter__title {
+  font-size: 39px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+.container.matter {
+  background-image: url(../images/vokrug.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.phone {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  .phone__icon {
+    fill: $primary-text-color;
+    margin-right: 10px;
+  }
+  .phone__link {
+    color: $primary-text-color;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 500;
+  }
+}
+
+.matter__blocknote {
+  background-image: url(../images/blocknote.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-top: 100px;
+}
+.matter__descrip {
+  padding: 90px 0;
+  background-color: black;
+  height: 400px;
+}
+.matter__question {
+  font-size: 18px;
+  line-height: 1.33;
+}
+.question__description {
+  font-size: 13px;
+  line-height: 1.46;
+  padding: 30px 20px;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .mail__icon {
+    fill: blue;
+    margin-right: 5px;
+  }
+  .mail__link {
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 500;
+  }
+}
