@@ -101,7 +101,7 @@ p {
 
 .site-nav {
   position: fixed;
-  top: 20px;
+  top: 0;
   left: 0;
   width: 100vw;
   height: 100%;
